@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .hero img {
+            width: 300px;
+            height: auto;
+        }
+        .biodata-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .biodata-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .portfolio div {
+            width: 30%;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Profil Biodata</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#portfolio">Portfolio</a>
+    </nav>
+    <div class="container">
+        <section class="hero">
+            <div>
+                <h2>Selamat Datang di Website Saya</h2>
+                <p>Ini adalah contoh halaman profil biodata saya.</p>
+            </div>
+            <img src="https://via.placeholder.com/300" alt="Profile Picture">
+        </section>
+        <section id="biodata">
+            <h2>About Me</h2>
+            <table class="biodata-table">
+                <tr>
+                    <td>Gio Maureksa Nugraha</td>
+                    <td>College</td>
+                    <td>Mahasiswa</td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td>Basketball</td>
+                    <td>Ciamis</td>
+                </tr>
+            </table>
+        </section>
+        <section id="portfolio">
+            <h2>Portofolio</h2>
+            <div class="portfolio">
+                <div>
+                    <img src="https://via.placeholder.com/350x200" alt="Proyek 1">
+                    <p>Proyek 1 - Deskripsi proyek 1.</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/350x200" alt="Proyek 2">
+                    <p>Proyek 2 - Deskripsi proyek 2.</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/350x200" alt="Proyek 3">
+                    <p>Proyek 3 - Deskripsi proyek 3.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
